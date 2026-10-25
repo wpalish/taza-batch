@@ -1,0 +1,160 @@
+TAP version 13
+# Subtest: ordered pipeline transforms exact rows,keeps complete per-step before/after and total
+ok 1 - ordered pipeline transforms exact rows,keeps complete per-step before/after and total
+  ---
+  duration_ms: 5.614208
+  type: 'test'
+  ...
+# Subtest: integer before trim fails,stops trace and never imports partial transformed rows
+ok 2 - integer before trim fails,stops trace and never imports partial transformed rows
+  ---
+  duration_ms: 1.963084
+  type: 'test'
+  ...
+# Subtest: strict parser rejects malformed,root,nested,missing,unknown and non-string cells
+ok 3 - strict parser rejects malformed,root,nested,missing,unknown and non-string cells
+  ---
+  duration_ms: 0.17125
+  type: 'test'
+  ...
+# Subtest: parser enforces50 rows,cell limits and raw length without coercion
+ok 4 - parser enforces50 rows,cell limits and raw length without coercion
+  ---
+  duration_ms: 0.175166
+  type: 'test'
+  ...
+# Subtest: qty accepts only canonical positive decimal1..10000,not zero/sign/leadingzero/exponent/fraction
+ok 5 - qty accepts only canonical positive decimal1..10000,not zero/sign/leadingzero/exponent/fraction
+  ---
+  duration_ms: 8.345625
+  type: 'test'
+  ...
+# Subtest: final duplicate check uses transformed exact code and marks every duplicate row
+ok 6 - final duplicate check uses transformed exact code and marks every duplicate row
+  ---
+  duration_ms: 0.9795
+  type: 'test'
+  ...
+# Subtest: without optional trim/upper,code uniqueness is case/space sensitive and no NFKC occurs
+ok 7 - without optional trim/upper,code uniqueness is case/space sensitive and no NFKC occurs
+  ---
+  duration_ms: 0.7245
+  type: 'test'
+  ...
+# Subtest: blank required text stops at its step;upper expansion over limit rejects
+ok 8 - blank required text stops at its step;upper expansion over limit rejects
+  ---
+  duration_ms: 1.193959
+  type: 'test'
+  ...
+# Subtest: frozen publication/report survives later descriptions and step order changes
+ok 9 - frozen publication/report survives later descriptions and step order changes
+  ---
+  duration_ms: 1.824833
+  type: 'test'
+  ...
+# Subtest: publication requires full5mandatory distinct positions/operations with unique_code last
+ok 10 - publication requires full5mandatory distinct positions/operations with unique_code last
+  ---
+  duration_ms: 0.831875
+  type: 'test'
+  ...
+# Subtest: publication version cannot repeat even after archive;step edit/archive increments version
+ok 11 - publication version cannot repeat even after archive;step edit/archive increments version
+  ---
+  duration_ms: 1.554708
+  type: 'test'
+  ...
+# Subtest: step keeps parent and an archived parent rejects edits/new steps
+ok 12 - step keeps parent and an archived parent rejects edits/new steps
+  ---
+  duration_ms: 1.159083
+  type: 'test'
+  ...
+# Subtest: owner imports whole exact output once;identical codes in another dataset are allowed
+ok 13 - owner imports whole exact output once;identical codes in another dataset are allowed
+  ---
+  duration_ms: 2.692166
+  type: 'test'
+  ...
+# Subtest: other employee and administrator cannot bypass import ownership
+ok 14 - other employee and administrator cannot bypass import ownership
+  ---
+  duration_ms: 1.329792
+  type: 'test'
+  ...
+# Subtest: client-supplied report/output/owner/time/snapshot are ignored
+ok 15 - client-supplied report/output/owner/time/snapshot are ignored
+  ---
+  duration_ms: 1.156833
+  type: 'test'
+  ...
+# Subtest: global stale revision including unrelated edits refuses all writes
+ok 16 - global stale revision including unrelated edits refuses all writes
+  ---
+  duration_ms: 1.213625
+  type: 'test'
+  ...
+# Subtest: UUID is global across runs/imports and remains consumed after archive
+ok 17 - UUID is global across runs/imports and remains consumed after archive
+  ---
+  duration_ms: 2.847667
+  type: 'test'
+  ...
+# Subtest: archive closes new run but prior ready import survives publication and pipeline archive
+ok 18 - archive closes new run but prior ready import survives publication and pipeline archive
+  ---
+  duration_ms: 1.835708
+  type: 'test'
+  ...
+# Subtest: ready run cannot archive before import;rejected/imported history may archive without undo
+ok 19 - ready run cannot archive before import;rejected/imported history may archive without undo
+  ---
+  duration_ms: 3.001667
+  type: 'test'
+  ...
+# Subtest: report and dataset cannot be edited;clock rollback prevents import
+ok 20 - report and dataset cannot be edited;clock rollback prevents import
+  ---
+  duration_ms: 1.97675
+  type: 'test'
+  ...
+# Subtest: two SQLite connections refuse concurrent stale duplicate import
+ok 21 - two SQLite connections refuse concurrent stale duplicate import
+  ---
+  duration_ms: 4.987875
+  type: 'test'
+  ...
+# Subtest: file restart and consistent SQLite backup preserve full trace/datasets/audit
+ok 22 - file restart and consistent SQLite backup preserve full trace/datasets/audit
+  ---
+  duration_ms: 7.458791
+  type: 'test'
+  ...
+# Subtest: empty restore keeps prior reports/imports and ready owner can finish
+ok 23 - empty restore keeps prior reports/imports and ready owner can finish
+  ---
+  duration_ms: 3.4355
+  type: 'test'
+  ...
+# Subtest: corrupt snapshot/trace/output/import/owner/key copies refuse restore atomically
+ok 24 - corrupt snapshot/trace/output/import/owner/key copies refuse restore atomically
+  ---
+  duration_ms: 2.715417
+  type: 'test'
+  ...
+# Subtest: HTTP authentication,roles,Origin,CSRF,cookie and author import are independently enforced
+ok 25 - HTTP authentication,roles,Origin,CSRF,cookie and author import are independently enforced
+  ---
+  duration_ms: 167.715792
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 274.004667

@@ -1,0 +1,67 @@
+{
+  "persistence": {
+    "status": "sufficient_for_finish_review",
+    "mode": "Operate",
+    "direction": "Precisely specified code-led extension of the inherited Shared Work Cabinet; no new visual world, concept competition, seed, approved comp, or build-state artifact applies.",
+    "inspected": [
+      "PRODUCT.md",
+      ".impeccable/surfaces/public-app-js.md",
+      "../qural-gate/DESIGN.md",
+      "public/index.html",
+      "public/styles.css",
+      "public/app.js",
+      "/Users/wpalish/.codex/skills/impeccable/reference/craft-floor.md"
+    ],
+    "finding": "The product and surface contract persist the synthetic fixed-column task, first-failure behavior, exact evidence, owner-only whole import, and inherited visual authority. Source and supplied pixels agree with that direction.",
+    "documentation_handoff": "This finish review does not assert that target DESIGN.md, the final verdict, or capture-provenance documentation has already been written. Those remain the subsequent documentation handoff."
+  },
+  "fidelity": {
+    "status": "pass",
+    "comparison_authority": "The supplied direction contract and inherited QuralGate DESIGN.md; no approved comp was supplied or required for this extension.",
+    "findings": [
+      "Navy orientation, pale-blue workspace, system typography, white labelled native form, green explicit import, flat evidence sections, and native disclosure markers preserve the Shared Work Cabinet.",
+      "Completed v8 leads with the current local-dataset status and labels the older success evidence as the result of the saved run. Its exact two-row output has numeric qty 2 and 3; the expanded step 6 shows string quantities before conversion and numbers after it.",
+      "Rejected v11 names step 6 as the first failed stage, identifies row 1 qty, states that later stages did not run, and explicitly says the output is empty with no partial import. The expanded failed-stage trace shows the second row converted to numeric qty 3 without presenting that partial trace as output.",
+      "Ready v11 distinguishes a saved report from an import. The separate required reason field and whole-package import submit follow the exact one-row output and precede the ordered evidence. The screenshot shows the form before submission; its text is not evidence of an import.",
+      "At 390px navigation reflows, long timestamps and digests wrap, raw JSON stays within the page, the import action fits, and visible amber focus surrounds the active disclosure or textarea. No visible clipping appears in the supplied packet.",
+      "Source preserves exact inputJson, renders exact output and stage before/after data in pre elements, uses actual details/summary elements, retains exact step positions through ordered-list item values, and gives authored RU/KK paragraphs and editor fields their respective language attributes. The document and interface remain Russian."
+    ],
+    "independently_opened_captures": [
+      { "path": ".impeccable/review/result-1440.png", "width": 1440, "height": 2551, "state": "first imported v8 report; expanded qty stage" },
+      { "path": ".impeccable/review/result-1280.png", "width": 1280, "height": 2551, "state": "first imported v8 report; expanded qty stage" },
+      { "path": ".impeccable/review/result-390.png", "width": 390, "height": 2922, "state": "first imported v8 report; expanded qty stage" },
+      { "path": ".impeccable/review/rejected-1440.png", "width": 1440, "height": 2169, "state": "v11 first failure; expanded partial trace; empty output" },
+      { "path": ".impeccable/review/rejected-390.png", "width": 390, "height": 2492, "state": "v11 first failure; expanded partial trace; empty output" },
+      { "path": ".impeccable/review/import-form-1440.png", "width": 1440, "height": 2212, "state": "fifth v11 ready report before explicit third import" },
+      { "path": ".impeccable/review/import-form-390.png", "width": 390, "height": 2540, "state": "fifth v11 ready report before explicit third import" }
+    ],
+    "capture_validation": "All seven PNGs were independently opened and their pixel dimensions read from file metadata. This reviewer did not recapture or operate the browser."
+  },
+  "ceiling": {
+    "status": "appropriate_to_operate_scope",
+    "finding": "Precision, readable exact evidence, native controls, explicit authority, and restrained hierarchy meet the intended craft ceiling. Another cosmetic pass would not resolve a material task problem visible in this packet.",
+    "static_contrast": "CSS palette calculations support the visible reading hierarchy: body on workspace 12.41:1, muted on workspace 5.71:1, navy navigation on mist 8.96:1, white on primary green 6.88:1, white on navy 11.07:1, and error red on pale error 7.37:1. This is a palette check, not a full accessibility audit.",
+    "source_supported_semantics": [
+      "Connected native field labels, required reason textarea, native submit behavior, and one explicit whole-import submit.",
+      "Import form is rendered only for a ready unarchived report whose owner name matches the current user; the alternative copy states that an administrator cannot bypass ownership. This is UI source evidence, not an independent authorization test.",
+      "Skip link, current-page navigation state, task/preview heading focus, polite status notice, error-notice focus, and visible focus styling.",
+      "Preview generation guards clear obsolete evidence when publication or JSON inputs change."
+    ],
+    "builder_observations_not_retested": [
+      "DOM scrollWidth equalled 1440, 1280, and 390 at the reported widths.",
+      "Native Enter preview/import, native disclosure interaction, and error focus were observed by the builder.",
+      "The builder reported a prior empty detector result in ../../program/taza-batch-detect.json; this reviewer did not rerun the detector or treat it as independent visual verification."
+    ],
+    "limits": "Ship applies to the supplied seven-capture packet and inspected frontend source. It does not establish every form, state, or viewport, full mobile or touch coverage, a screen-reader audit, backend correctness, security, external integration, real-data suitability, or a delivered service outcome."
+  },
+  "material_fixes": [],
+  "keep": [
+    "Current imported/ready/rejected state before the explicitly labelled saved-run result.",
+    "Exact raw input, exact final output, actual step positions, and native before/after disclosures.",
+    "First failed stage, later-stage stop statement, row/field error, and zero-output/no-partial-import wording together.",
+    "Owner-only whole-import form after final output, with a required reason and explicit one-time action.",
+    "Persistent synthetic/shared-area/external-operation boundaries and RU/KK authored language nodes.",
+    "Inherited cabinet palette, visible native focus, wrapping long evidence, and restrained Operate composition."
+  ],
+  "disposition": "ship"
+}

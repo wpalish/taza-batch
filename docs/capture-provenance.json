@@ -1,0 +1,86 @@
+[
+  {
+    "source": ".impeccable/review/result-1440.png",
+    "shipping_path": "docs/desktop-full.jpg",
+    "viewport_width": 1440,
+    "scrollWidth": 1440,
+    "state": "imported firstv8 report with expanded qty step",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "6b34b027489d795f21d4e242f81b2c02cf3cd422d00597ec6464f54a252cea95"
+  },
+  {
+    "source": ".impeccable/review/result-1280.png",
+    "shipping_path": "docs/user-1280.jpg",
+    "viewport_width": 1280,
+    "scrollWidth": 1280,
+    "state": "imported firstv8 report with expanded qty step",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "88bb86d4898ea76b575ca4522e5b3f7d912b14f91c8d332dc4000dea55805336"
+  },
+  {
+    "source": ".impeccable/review/result-390.png",
+    "shipping_path": "docs/mobile-full.jpg",
+    "viewport_width": 390,
+    "scrollWidth": 390,
+    "state": "imported firstv8 report with expanded qty step",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "7ca6f54d5119aeb48ebe8b1a4f428960a74217f17187f221e743d53d29a33ba7"
+  },
+  {
+    "source": ".impeccable/review/rejected-1440.png",
+    "shipping_path": "docs/rejected-desktop.jpg",
+    "viewport_width": 1440,
+    "scrollWidth": 1440,
+    "state": "v11firsterror at qty with partial trace but zero output",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "bbce64768ae8b6fefe0cac42ab3a7edfb1191dcc03898e441739ca37e553ed04"
+  },
+  {
+    "source": ".impeccable/review/rejected-390.png",
+    "shipping_path": "docs/rejected-mobile.jpg",
+    "viewport_width": 390,
+    "scrollWidth": 390,
+    "state": "v11firsterror at qty with partial trace but zero output",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "0c37c5202a6ba7bed47dd5298a22d35a603aeafbd49d4e98fd37f788629cb94e"
+  },
+  {
+    "source": ".impeccable/review/import-form-1440.png",
+    "shipping_path": "docs/import-form-desktop.jpg",
+    "viewport_width": 1440,
+    "scrollWidth": 1440,
+    "state": "ready fifthv11 report before explicit owner import",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "1bbbe9a81c4c5f1841e0e901d59380144a314e0e466607251a6c3736ea4eb573"
+  },
+  {
+    "source": ".impeccable/review/import-form-390.png",
+    "shipping_path": "docs/import-form-mobile.jpg",
+    "viewport_width": 390,
+    "scrollWidth": 390,
+    "state": "ready fifthv11 report before explicit owner import",
+    "own_synthetic_origin": "http://127.0.0.1:8851",
+    "opened_valid": true,
+    "actual_encoding": "JPEG",
+    "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+    "sha256": "c9682e142075095b9f016fd3c9a8011d05a59823d64c6a212ddb66e932d18bab"
+  }
+]

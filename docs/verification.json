@@ -1,0 +1,81 @@
+{
+  "product": "taza-batch",
+  "title": "TazaBatch",
+  "reference": 11,
+  "version": "0.1.0",
+  "as_of": "2026-10-25T16:09:42.133422+00:00",
+  "tests": {
+    "passed": 25,
+    "failed": 0,
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "acceptance": [
+      "Actual oldownerimport afterunrelateddraftchange refused entire11/audit11 andretainednote;freshwhole2rowimport succeeded.",
+      "Duplicatefinalcode packet savedrejected with2errors/zerooutput. Sameinputnewv11integerbeforetrim savedrejected after5stages atposition6;partialqty in trace only.",
+      "Oldv8ready imported afterpublicationarchive. Fifthv11canonicalpacket passed andownerimported explicitly. Final1pipeline/7steps/2publications/5runs/3imports,22/audit22.",
+      "11actualauthorizedHTTP400 refused without entirestate/audit changes20/audit20;twoexplicitfifthactionslater22. Firstreport exactagainststale11snapshot.",
+      "Ownedrestart39146→39408 preserved entireworkspace/audit22/all4tables;28priorserverDBs unchanged;ownerpublicSabaqLoop untouched.",
+      "Sevenfullcurrent captures opened:result1440/1280/390,rejected1440/390,ownerform1440/390. DOMscrollWidth=viewport;Enter/disclosure/focus/langkk observed."
+    ],
+    "proof": "docs/browser-proof.json",
+    "desktop": "docs/desktop-full.jpg",
+    "mobile": "docs/mobile-full.jpg",
+    "actual_viewports": [
+      1440,
+      1280,
+      390
+    ],
+    "external_action": false
+  },
+  "acceptance": [
+    "25passing domain/HTTP/file tests:ordered transformations/firstfail/wholeimport/strictJSON/decodedduplicatekeys/limits/types/versions/snapshots/stale/replay/owner/archive/clockrollback/twoSQLiteconnections/file restart/consistentSQLitebackup/emptyrestore/corruptcopies/Origin/CSRF/cookie/privacy.",
+    "Actual oldownerimport afterunrelateddraftchange refused entire11/audit11 andretainednote;freshwhole2rowimport succeeded.",
+    "Duplicatefinalcode packet savedrejected with2errors/zerooutput. Sameinputnewv11integerbeforetrim savedrejected after5stages atposition6;partialqty in trace only.",
+    "Oldv8ready imported afterpublicationarchive. Fifthv11canonicalpacket passed andownerimported explicitly. Final1pipeline/7steps/2publications/5runs/3imports,22/audit22.",
+    "11actualauthorizedHTTP400 refused without entirestate/audit changes20/audit20;twoexplicitfifthactionslater22. Firstreport exactagainststale11snapshot.",
+    "Ownedrestart39146→39408 preserved entireworkspace/audit22/all4tables;28priorserverDBs unchanged;ownerpublicSabaqLoop untouched.",
+    "Sevenfullcurrent captures opened:result1440/1280/390,rejected1440/390,ownerform1440/390. DOMscrollWidth=viewport;Enter/disclosure/focus/langkk observed."
+  ],
+  "limits": [
+    "FixedJSONarray1–50objects withcode,label,city,qty strings;notCSV/generaldataimport/schema. Cell200chars,qty24,raw50000trimouterwhitespace;duplicate decodedkeys rejected.",
+    "5–7distinctfixedoperations,unique_code last;standardtrim/toUpperCase,noNFKC/translation/transliteration. Case/space exactuniqueness ifoptionalstepsabsent;qtycanonicaldecimal1–10000,nozero/sign/leadingzero/fraction/exponent. Formatnottruth.",
+    "Firstfailedstage includespartialbefore/after;laterstagesnotrun,zerooutput/zeroimport. Noresume/retrysinglestep/cancellation/rollback/edit history/fullintermediatedrafts.",
+    "Importwholesuccessfuloutputonce,authoronly,noadminbypass. Samecode acrossdifferentdatasetsallowed. Archiveisdisplayhistory,notundo/newretry. Oldreadyimportsurvivespublication/pipelinearchive;readycannotarchivebeforeimport.",
+    "Globalrevision conflictsunrelatedwrites;UUIDreplayrefusesnotsuccessfulretry. Preview/hashoptionalHTTP,not humanapproval;serverrecomputesall inBEGINIMMEDIATE.",
+    "Sharedstaffworkspace,nottentant/clientisolation. Adminpipelines/steps/publication/archive/copies;staffrun/ownimport. NoUIpasswordreset/sessionrevocation.",
+    "UnsignedJSON/hashconsistency,not authenticity/historicrights;users/auth/auditexcluded,emptyrestoreonly,HTTPJSON2MB. SeveralfulltracesmayexceedJSONrestoresize;fullSQLiteconsistentbackupseparately.",
+    "Noexternalconnectors/n8ncode/AI/LLM/cron/webhooks/secrets/realdata/messages/financialoperations. Localimportnotphysicalstock/order/CRM/studentoutcome.",
+    "No publicserverhosting/load/fullmobile/touch/screenreader/externalsecurityaudit. Review scope onlysuppliedcaptures/UI source."
+  ],
+  "runtime": {
+    "pid": 39408,
+    "port": 8851,
+    "script": "work/program/run-taza-batch.mjs",
+    "before": "work/program/taza-restart-before.json",
+    "after": "work/program/taza-restart-after.json"
+  },
+  "preservation": {
+    "before": "work/program/taza-prior-before.json",
+    "after": "work/program/taza-prior-after.json",
+    "previous_servers": 28,
+    "own_tables_before": "work/program/taza-tables-before.json",
+    "own_tables_after": "work/program/taza-tables-after.json",
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship",
+    "file": "docs/finish-review.json",
+    "static_detector": "One --json invocation returned[];not parsedbrowser/securitycleanbill",
+    "scope": "Fresh independent source/7suppliedcaptures UI review;no materialfixes. Not fullinteraction/mobile/touch/screenreader/securityaudit."
+  },
+  "commercial": {
+    "potential_company_matches": 10,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "TazaBatch reference11:original published ordered syntheticrowpipeline,strictJSON,fullperstepbefore/after,firstfailurezerooutput andowneronlyexactlyoncewholelocaldatasetimport.25tests;actual stale11/audit11,wrongorder15/audit15,11HTTPrefusals20/audit20;oldv8readyimportsafterarchive,newv11orderchangesoutcome. Final22/audit22,5runs/3imports. Ownrestart/all4tables and28priorDBs preserved. No externalintegration/AI/realdata/clientclaim."
+}

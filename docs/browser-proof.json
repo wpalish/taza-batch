@@ -1,0 +1,205 @@
+{
+  "product": "taza-batch",
+  "synthetic_only": true,
+  "stale_refusal": {
+    "before": "work/program/taza-stale-before.json",
+    "after": "work/program/taza-stale-after.json",
+    "entire_workspace_and_audit_unchanged": true,
+    "revision": 11,
+    "audit_events": 11,
+    "input_retained": "SYN:импорт только всего вымышленного пакета"
+  },
+  "publication_order_refusal": {
+    "before": "work/program/taza-order-before.json",
+    "after": "work/program/taza-order-after.json",
+    "revision": 15,
+    "audit_events": 15,
+    "entire_workspace_and_audit_unchanged": true,
+    "reason": "unique_code must be last"
+  },
+  "native_http": {
+    "at": "2026-10-25T16:00:23.063Z",
+    "revision": 20,
+    "audit_events": 20,
+    "results": [
+      {
+        "name": "archived_start",
+        "status": 400,
+        "error": "Новый пакет по архиву закрыт.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "archived_preview",
+        "status": 400,
+        "error": "Публикация или цепочка в архиве.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "rejected_import",
+        "status": 400,
+        "error": "Нужен действующий успешный отчёт.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "duplicate_import",
+        "status": 400,
+        "error": "Этот отчёт уже импортирован.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "foreign_author",
+        "status": 400,
+        "error": "Импортирует только автор отчёта.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "admin_author_bypass",
+        "status": 400,
+        "error": "Импортирует только автор отчёта.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "used_uuid",
+        "status": 400,
+        "error": "Новый UUID ключ уже использован или неверен.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "stale_revision",
+        "status": 400,
+        "error": "Данные изменились в другой вкладке. Обновите экран перед сохранением.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "immutable_report",
+        "status": 400,
+        "error": "Отчёт и локальный набор неизменны.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "immutable_dataset",
+        "status": 400,
+        "error": "Отчёт и локальный набор неизменны.",
+        "whole_workspace_audit_unchanged": true
+      },
+      {
+        "name": "duplicate_publication_version",
+        "status": 400,
+        "error": "Эта версия уже опубликована.",
+        "whole_workspace_audit_unchanged": true
+      }
+    ]
+  },
+  "actual_sequence": [
+    "v8good2rows all7stages/outputqty2+3/total5,firstownerimport",
+    "duplicatefinalcode A:bothrows error,zerooutput/noimport",
+    "thirdv8ready savedbeforearchive",
+    "newv11movesintegerbeforetrim;identicalinput stops atposition6 after5executedstages,secondrowqty3onlyintracenotoutput",
+    "oldv8publicationarchive;thirdready importedOLD-3qty4bysnapshot",
+    "fifthv11canonicalqty4 passes7stages,capturedreadyformthenownerimportedLIVE-5"
+  ],
+  "final": {
+    "revision": 22,
+    "audit_events": 22,
+    "pipelines": 1,
+    "steps": 7,
+    "publications": 2,
+    "runs": 5,
+    "imports": 3,
+    "first_report_exact_against_stale11_snapshot": true
+  },
+  "captures": [
+    {
+      "source": ".impeccable/review/result-1440.png",
+      "shipping_path": "docs/desktop-full.jpg",
+      "viewport_width": 1440,
+      "scrollWidth": 1440,
+      "state": "imported firstv8 report with expanded qty step",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "6b34b027489d795f21d4e242f81b2c02cf3cd422d00597ec6464f54a252cea95"
+    },
+    {
+      "source": ".impeccable/review/result-1280.png",
+      "shipping_path": "docs/user-1280.jpg",
+      "viewport_width": 1280,
+      "scrollWidth": 1280,
+      "state": "imported firstv8 report with expanded qty step",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "88bb86d4898ea76b575ca4522e5b3f7d912b14f91c8d332dc4000dea55805336"
+    },
+    {
+      "source": ".impeccable/review/result-390.png",
+      "shipping_path": "docs/mobile-full.jpg",
+      "viewport_width": 390,
+      "scrollWidth": 390,
+      "state": "imported firstv8 report with expanded qty step",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "7ca6f54d5119aeb48ebe8b1a4f428960a74217f17187f221e743d53d29a33ba7"
+    },
+    {
+      "source": ".impeccable/review/rejected-1440.png",
+      "shipping_path": "docs/rejected-desktop.jpg",
+      "viewport_width": 1440,
+      "scrollWidth": 1440,
+      "state": "v11firsterror at qty with partial trace but zero output",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "bbce64768ae8b6fefe0cac42ab3a7edfb1191dcc03898e441739ca37e553ed04"
+    },
+    {
+      "source": ".impeccable/review/rejected-390.png",
+      "shipping_path": "docs/rejected-mobile.jpg",
+      "viewport_width": 390,
+      "scrollWidth": 390,
+      "state": "v11firsterror at qty with partial trace but zero output",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "0c37c5202a6ba7bed47dd5298a22d35a603aeafbd49d4e98fd37f788629cb94e"
+    },
+    {
+      "source": ".impeccable/review/import-form-1440.png",
+      "shipping_path": "docs/import-form-desktop.jpg",
+      "viewport_width": 1440,
+      "scrollWidth": 1440,
+      "state": "ready fifthv11 report before explicit owner import",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "1bbbe9a81c4c5f1841e0e901d59380144a314e0e466607251a6c3736ea4eb573"
+    },
+    {
+      "source": ".impeccable/review/import-form-390.png",
+      "shipping_path": "docs/import-form-mobile.jpg",
+      "viewport_width": 390,
+      "scrollWidth": 390,
+      "state": "ready fifthv11 report before explicit owner import",
+      "own_synthetic_origin": "http://127.0.0.1:8851",
+      "opened_valid": true,
+      "actual_encoding": "JPEG",
+      "source_filename_note": "Review capture uses .png filename with JPEG bytes;shipping .jpg alias keeps identical bytes/pixels",
+      "sha256": "c9682e142075095b9f016fd3c9a8011d05a59823d64c6a212ddb66e932d18bab"
+    }
+  ],
+  "reported_interactions": [
+    "nativeEnter preview andownerimport",
+    "nativeReturn summarydisclosure",
+    "errornotice/resultheading focus",
+    "authorKKlangkk/UIru",
+    "all3widthsscrollWidth=viewport"
+  ],
+  "limits": "Builder browser observations;not fulltouch/mobile/screenreader/securityaudit. Formcaptures beforefifth explicitimport,currentcode. Early screenshotAPI calls produced nofiles and are not evidence."
+}
